@@ -4,7 +4,9 @@ repos:
   hooks:
     - id: terraform_fmt
       args:
+        - --args=-no-color
         - --args=-diff
+        - --args=-write=false
     - id: terraform_tflint
       args:
         - --hook-config=--delegate-chdir
