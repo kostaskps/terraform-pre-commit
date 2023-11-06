@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "rg" {
   location = "North Europe"
 
   tags = {
-    Environment = "dev"
+    Environment = "development"
     Owner       = "DevOps"
   }
 }
