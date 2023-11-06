@@ -33,3 +33,6 @@ pre-commit run –all-files
 ```sh
 pre-commit run -a
 ```
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
